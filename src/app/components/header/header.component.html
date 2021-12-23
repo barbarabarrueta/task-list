@@ -1,1 +1,8 @@
-<h1>{{title}}</h1>
+<header>
+    {{title}}
+    <app-button 
+        color="green" 
+        text="agregar tarea"
+        (btnClick)="toggleAddTask()"
+    ></app-button>
+</header>
