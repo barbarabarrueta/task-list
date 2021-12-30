@@ -1,8 +1,5 @@
 import {Task} from "./Task"
-<<<<<<< HEAD
-=======
 export const TASKS: Task[]=[
->>>>>>> task_list
     {
         id: 1,
         text: "terminar primer modulo de angular",
