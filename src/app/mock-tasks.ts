@@ -1,6 +1,5 @@
 import {Task} from "./Task"
 <<<<<<< HEAD
-export const TASKS Task[]=[
 =======
 export const TASKS: Task[]=[
 >>>>>>> task_list

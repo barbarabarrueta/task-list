@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import {TASKS} from '../../mock-tasks';
 import {Task} from '../../Task';
-
+ 
 @Component({
   selector: 'app-tasks-item',
   templateUrl: './tasks-item.component.html',
@@ -10,6 +10,7 @@ import {Task} from '../../Task';
 export class TasksItemComponent implements OnInit {
 
   @Input() task:Task = TASKS[0]
+  faTimes = faTimes;
 
   constructor() { }
 
