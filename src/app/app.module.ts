@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ButtonComponent } from './components/button/button.component';
 <<<<<<< HEAD
-
 =======
 import { TasksComponent } from './components/tasks/tasks.component';
 import { TasksItemComponent } from './components/tasks-item/tasks-item.component';
@@ -17,7 +16,6 @@ import { TasksItemComponent } from './components/tasks-item/tasks-item.component
     HeaderComponent,
     ButtonComponent,
 <<<<<<< HEAD
-    TaskComponent
 =======
     TasksComponent,
     TasksItemComponent
